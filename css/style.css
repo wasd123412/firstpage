@@ -308,7 +308,7 @@
 
 .about-item h4{
 	display: inline-block;
-	color: gray;
+	color: 	#2894ff;
 	padding-left: 20px;
 	font-size: 12px;
 }
@@ -350,7 +350,7 @@
 
 
 .courses .section-intro h2{
-	color: gray;
+	color: 	#2894ff;
 	font-size: 12px;
 	line-height: 16px;
 	margin: 0;
@@ -465,7 +465,7 @@
 
 
 .gallery h2{
-	color: gray;
+	color: 	#2894ff;
 	font-size: 12px;
 	margin-bottom: 8px;
 }
@@ -536,9 +536,16 @@
 		padding: 8% 0;
 	}
 }
+@media (max-width: 375px) {
+	.gal-info{
+		padding: 2% 0;
+	}
+	
+}
 
 .gal-info:hover{
 	opacity: 0.9;
+	transition: 0.2s;
 }
 
 
@@ -554,6 +561,24 @@
 .gal-info p{
 	color: #f0f0f0;
 	font-size: 16px;
+}
+
+@media (max-width: 768px) {
+	.gal-info a{
+		font-size: 16px;
+	}
+	.gal-info p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 375px) {
+	.gal-info a{
+		font-size: 12px;
+	}
+	.gal-info p{
+		font-size: 8px;
+	}
+	
 }
 
 
@@ -576,7 +601,7 @@
 
 .teacher h2{
 	font-size: 12px;
-	color: gray;
+	color:yellow;
 	margin-top: 0;
 }
 
@@ -590,7 +615,7 @@
 
 .teacher p{
 	font-size: 12px;
-	color: gray;
+	color:#fff;
 	margin: 0;
 	margin-bottom: 30px;
 }
@@ -611,7 +636,7 @@
 }
 
 .teacher h3{
-	color: gray;
+	color:	#2894ff;
 	font-size: 12px;
 	margin-top: 20px;
 }
@@ -622,8 +647,8 @@
 	margin: 20px 0;
 }
 
-.teacher p{
-	color: gray;
+.teacher .row p{
+	color:black;
 	font-size: 12px;
 }
 
@@ -759,7 +784,7 @@
 .parent .col-1-2 .par-h2{
 	font-size: 12px;
 	margin-left: 80px;
-	color: gray;
+	color:	#2894ff;
 	padding-top: 20px;
 }
 
@@ -836,7 +861,7 @@
 
 .blog .mask:hover{
 	background-color: rgba(0,0,0,0);
-	transition: 0.3s;
+	transition: 0.4s;
 }
 
 .blog h4{
@@ -957,8 +982,9 @@
 .footer .col-1-1 h4{
     padding: 0;
 	margin: 0;
-	color: gray;
+	color: yellow;
 	font-size: 12px;
+	padding-left: 12px;
 	line-height: 28px;
 
 }
